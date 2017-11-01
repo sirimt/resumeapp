@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Hobby extends Component {
+class Facts extends Component {
   constructor(props) {
     super(props)
   }
@@ -9,11 +9,10 @@ class Hobby extends Component {
       console.log(this.props)
       return (
         <div>
-          <li className="App-header">
-            {this.props.superHobby}</li>
+          {this.props.superFacts}
         </div>
       )
     }
   }
 
-    export default Hobby;
+    export default Facts;
